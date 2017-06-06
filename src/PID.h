@@ -11,6 +11,11 @@ public:
   double d_error;
 
   /*
+   * Old value of cte; needed for d contribution
+   */
+  double cte_old;
+
+  /*
   * Coefficients
   */ 
   double Kp;
